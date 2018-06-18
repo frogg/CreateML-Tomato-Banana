@@ -9,6 +9,7 @@ First, we need data to train the model with. CreateML makes labeling very easy: 
 
 # Setup Xcode Playground
 Now, got to Xcode and select `File` ➡️ `New` ➡️ `Playground` ➡️ `macOS` ➡️ `blank`.
+
 ![create new playground](https://raw.githubusercontent.com/frogg/CreateML-Tomato-Banana/master/screenshots/create%20new%20playground.png)
 
 Please note: Xcode 10 and macOS 10.14 Mojave are required to run CreateML.
