@@ -2,15 +2,18 @@
 
 This is a minimal example to show you how CreateML works. We will create a CoreML model that is able to detect bananas and tomatoes.
 
-# Training Data
+# 🏋️‍♀️ Training Data
 First, we need data to train the model with. CreateML makes labeling very easy: Create a new folder for your images. In this folder, create two new folders: one named `banana`, the other one named `tomato`. Now download a bunch of images from the internet (search for "banana" or "tomato") and put them into their according folders. The result should look like this:
 
 ![Folder](https://raw.githubusercontent.com/frogg/CreateML-Tomato-Banana/master/screenshots/training%20data.png)
 
 # Setup Xcode Playground
-Now, got to Xcode and select `File` —> `New` —> `Playground` —> `macOS` —> `blank`.
+Now, got to Xcode and select `File` ➡️ `New` ➡️ `Playground` ➡️ `macOS` ➡️ `blank`.
+![create new playground](https://raw.githubusercontent.com/frogg/CreateML-Tomato-Banana/master/screenshots/create%20new%20playground.png)
 
-# Code
+Please note: Xcode 10 and macOS 10.14 Mojave are required to run CreateML.
+
+# 👩‍💻 Code
 To show the CreateML drag and drop user interface we need to write some very minimal code:
 ```Swift
 import CreateMLUI
@@ -52,7 +55,7 @@ Trained model successfully saved at /var/folders/77/d8w7sf5n1wxd9g33wtjq9wy40000
 
 ```
 
-# Executing and Testing the Model
+# 🚀 Executing and Testing the Model
 To see how well the model performs we can test it with some images that it has never seen before. This is important to verify that the model is not overfitted on our training data!
 
 Just download some more banana and tomato images and drag them onto the model:
